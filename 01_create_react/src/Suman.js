@@ -4,4 +4,4 @@ function Suman(){
     )
 }
 
-export default Suman
+export default Suman;
