@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Navbar from './Navbar'
 import './App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <>
+    < Navbar />
     <h1>Creating project with || React{count}</h1>
     <h3>Counter: {count}</h3>
     <button onClick={incrementValue}>Increment: {count}</button>

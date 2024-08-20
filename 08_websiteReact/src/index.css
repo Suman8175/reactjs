@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Foldit';
+    src: local('Foldit'), 
+    url('../public/fonts/Lato-Regular.ttf') format('truetype');
+}
+
+body {
+    @apply font-primaryRegular;
+  }
